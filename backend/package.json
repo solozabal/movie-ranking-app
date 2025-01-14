@@ -1,0 +1,30 @@
+{
+  "name": "movie-ranking-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Movie Ranking App using TMDb API",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.11.96",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

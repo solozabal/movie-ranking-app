@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^7.2.1",
+    "firebase": "^11.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "@types/react-router-dom": "^5.3.3"
+  }
+}
